@@ -1,0 +1,88 @@
+//iPad Air
+@media screen and (device-aspect-ratio: 3/4) {
+
+  #container {
+    #topSection {
+      height:30vh !important;
+    }
+  }
+
+  #noResults {
+    top: 40% !important;
+  }
+}
+
+//iPhone 6 Plus
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+  #container {
+    #topSection {
+      height:40vh !important;
+    }
+
+    #searchSection {
+    }
+  }
+
+  #noResults {
+    top: 50% !important;
+  }
+}
+
+//iPhone 6
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  #container {
+    h1 {
+      font-size:3rem;
+    }
+    #topSection {
+      height:40vh !important;
+    }
+
+    #searchSection {
+    }
+  }
+
+  #noResults {
+    top: 50% !important;
+  }
+
+}
+
+//iPhone 5
+@media screen and (device-aspect-ratio: 40/71) {
+  #container {
+    h1 {
+      font-size:3rem;
+      margin-bottom:1em !important;
+    }
+    #topSection {
+      height:50vh !important;
+    }
+
+    .question {
+      font-size:0.8em;
+    }
+  }
+
+  #searchSection {
+    margin:0 auto;
+    width:80%;
+
+    h1 {
+      margin:0;
+    }
+
+    #searchBox {
+      width:20em;
+    }
+  }
+
+  #noResults {
+    top: 60% !important;
+  }
+
+}
